@@ -175,7 +175,7 @@ telco-churn-analysis/
 
 ### 6.1 总体流失情况
 
-<img src="C:\github-projects\telco-churn-analysis\images\churn_count.png" alt="churn_count" style="zoom:50%;" />
+<img src="images\churn_count.png" alt="churn_count" style="zoom:50%;" />
 
 | 指标         |   数值 |
 | ------------ | -----: |
@@ -190,7 +190,7 @@ telco-churn-analysis/
 
 ### 6.2 合同类型流失率
 
-<img src="C:\github-projects\telco-churn-analysis\images\contract_churn.png" alt="contract_churn" style="zoom:50%;" />
+<img src="images\contract_churn.png" alt="contract_churn" style="zoom:50%;" />
 
 | 合同类型       | 客户数 | 流失数 | 流失率 |
 | -------------- | -----: | -----: | -----: |
@@ -237,13 +237,13 @@ telco-churn-analysis/
 - 在网时长越长，流失率越低；
 - 前 12 个月是客户留存的关键窗口。
 
-<img src="C:\github-projects\telco-churn-analysis\images\tenure_churn.png" alt="tenure_churn" style="zoom:50%;" />
+<img src="images\tenure_churn.png" alt="tenure_churn" style="zoom:50%;" />
 
 ---
 
 ### 6.5 月费与流失
 
-<img src="C:\github-projects\telco-churn-analysis\images\monthly_churn.png" alt="monthly_churn" style="zoom:50%;" />
+<img src="images\monthly_churn.png" alt="monthly_churn" style="zoom:50%;" />
 
 - 流失客户月费整体高于非流失客户；
 - 高月费客户流失风险更大；
@@ -274,17 +274,17 @@ telco-churn-analysis/
 - 自动扣款用户流失率相对较低；
 - 推动电子支票用户改为自动扣款，可降低流失。
 
-<img src="C:\github-projects\telco-churn-analysis\images\InternetService_churn.png" alt="InternetService_churn" style="zoom:50%;" />
+<img src="images\InternetService_churn.png" alt="InternetService_churn" style="zoom:50%;" />
 
-<img src="C:\github-projects\telco-churn-analysis\images\PaymentMethod_churn.png" alt="PaymentMethod_churn" style="zoom:50%;" />
+<img src="images\PaymentMethod_churn.png" alt="PaymentMethod_churn" style="zoom:50%;" />
 
 ---
 
 ### 6.7 在线安全与技术支持
 
-<img src="C:\github-projects\telco-churn-analysis\images\OnlineSecurity_churn.png" alt="OnlineSecurity_churn" style="zoom:50%;" />
+<img src="images\OnlineSecurity_churn.png" alt="OnlineSecurity_churn" style="zoom:50%;" />
 
-<img src="C:\github-projects\telco-churn-analysis\images\TechSupport_churn.png" alt="TechSupport_churn" style="zoom:50%;" />
+<img src="images\TechSupport_churn.png" alt="TechSupport_churn" style="zoom:50%;" />
 
 | 服务           | 取值                | 流失率（约） |
 | -------------- | ------------------- | -----------: |
@@ -328,7 +328,7 @@ telco-churn-analysis/
 
 ### 6.9 数值变量相关性
 
-<img src="C:\github-projects\telco-churn-analysis\images\corr_heatmap.png" alt="corr_heatmap" style="zoom:50%;" />
+<img src="images\corr_heatmap.png" alt="corr_heatmap" style="zoom:50%;" />
 
 | 变量对                        | 相关系数 |
 | ----------------------------- | -------: |
@@ -346,7 +346,7 @@ telco-churn-analysis/
 
 ### 6.10 模型评估对比
 
-<img src="C:\github-projects\telco-churn-analysis\images\roc_curve.png" alt="roc_curve" style="zoom:50%;" />
+<img src="images\roc_curve.png" alt="roc_curve" style="zoom:50%;" />
 
 | 指标      |                逻辑回归 |                 随机森林 |
 | --------- | ----------------------: | -----------------------: |
@@ -368,7 +368,7 @@ telco-churn-analysis/
 
 ### 6.11 逻辑回归特征系数 Top10
 
-<img src="C:\github-projects\telco-churn-analysis\images\lr_coef.png" alt="lr_coef" style="zoom:50%;" />
+<img src="images\lr_coef.png" alt="lr_coef" style="zoom:50%;" />
 
 | 特征                                      |    系数 | 方向                                               |
 | ----------------------------------------- | ------: | -------------------------------------------------- |
@@ -393,7 +393,7 @@ telco-churn-analysis/
 
 ### 6.12 随机森林特征重要性 Top10
 
-<img src="C:\github-projects\telco-churn-analysis\images\rf_importance.png" alt="rf_importance" style="zoom:50%;" />
+<img src="images\rf_importance.png" alt="rf_importance" style="zoom:50%;" />
 
 | 特征                                | 重要性 |
 | ----------------------------------- | -----: |
@@ -418,7 +418,7 @@ telco-churn-analysis/
 
 ### 6.13 阈值选择与成本敏感分析
 
-<img src="C:\github-projects\telco-churn-analysis\images\threshold_analysis.png" alt="threshold_analysis" style="zoom:50%;" />
+<img src="images\threshold_analysis.png" alt="threshold_analysis" style="zoom:50%;" />
 
 | 阈值 | Precision | Recall |     F1 |   TP |   FP |   FN |   TN |
 | ---: | --------: | -----: | -----: | ---: | ---: | ---: | ---: |
@@ -499,7 +499,7 @@ telco-churn-analysis/
 
 ### 6.15 挽留策略 A/B 验证
 
-<img src="C:\github-projects\telco-churn-analysis\outputs\ab_test\ab_test_results.png" alt="ab_test_results" style="zoom:50%;" />
+<img src="outputs\ab_test\ab_test_results.png" alt="ab_test_results" style="zoom:50%;" />
 
 根据 `ab_test_results.json`：
 
