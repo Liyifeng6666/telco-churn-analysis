@@ -1,0 +1,120 @@
+{
+  "logistic_regression": {
+    "AUC": 0.8415,
+    "Accuracy": 0.7381,
+    "Precision": 0.5043,
+    "Recall": 0.7834,
+    "F1": 0.6136,
+    "ConfusionMatrix": [
+      [
+        747,
+        288
+      ],
+      [
+        81,
+        293
+      ]
+    ]
+  },
+  "random_forest": {
+    "AUC": 0.8226,
+    "Accuracy": 0.7665,
+    "Precision": 0.5529,
+    "Recall": 0.6283,
+    "F1": 0.5882,
+    "ConfusionMatrix": [
+      [
+        845,
+        190
+      ],
+      [
+        139,
+        235
+      ]
+    ]
+  },
+  "lr_top10_features": [
+    {
+      "feature": "num__tenure",
+      "coef": -1.1410906510341445
+    },
+    {
+      "feature": "cat__Contract_Two year",
+      "coef": -0.7664459857315874
+    },
+    {
+      "feature": "cat__InternetService_Fiber optic",
+      "coef": 0.7157558571032513
+    },
+    {
+      "feature": "num__MonthlyCharges",
+      "coef": -0.6772557848810236
+    },
+    {
+      "feature": "cat__Contract_Month-to-month",
+      "coef": 0.6629966000717835
+    },
+    {
+      "feature": "cat__InternetService_DSL",
+      "coef": -0.6176571970523825
+    },
+    {
+      "feature": "num__TotalCharges",
+      "coef": 0.4743569159163371
+    },
+    {
+      "feature": "cat__StreamingMovies_Yes",
+      "coef": 0.28257748358196916
+    },
+    {
+      "feature": "cat__DeviceProtection_No internet service",
+      "coef": -0.27034746202254234
+    },
+    {
+      "feature": "cat__OnlineSecurity_No internet service",
+      "coef": -0.27034746202254234
+    }
+  ],
+  "rf_top10_features": [
+    {
+      "feature": "num__TotalCharges",
+      "importance": 0.140417744622407
+    },
+    {
+      "feature": "num__tenure",
+      "importance": 0.12898972518547647
+    },
+    {
+      "feature": "num__MonthlyCharges",
+      "importance": 0.1228492480660558
+    },
+    {
+      "feature": "cat__Contract_Month-to-month",
+      "importance": 0.068690142378328
+    },
+    {
+      "feature": "cat__OnlineSecurity_No",
+      "importance": 0.0393170835202789
+    },
+    {
+      "feature": "cat__Contract_Two year",
+      "importance": 0.03468539734203098
+    },
+    {
+      "feature": "cat__TechSupport_No",
+      "importance": 0.03140505537707238
+    },
+    {
+      "feature": "cat__PaymentMethod_Electronic check",
+      "importance": 0.02816844046123518
+    },
+    {
+      "feature": "cat__InternetService_Fiber optic",
+      "importance": 0.024871910395534932
+    },
+    {
+      "feature": "cat__OnlineBackup_No",
+      "importance": 0.017117567603615585
+    }
+  ]
+}
